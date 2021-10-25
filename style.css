@@ -3,6 +3,9 @@
   width: 1920px;
   height: 300px;
 }
+.jakke {
+  height: 300px;
+}
 .container {
   display: flex;
   align-items: center;
@@ -15,7 +18,7 @@
   width: 50px;
 }
 .parent-wrapper {
-height: 90px;
+height: 80px;
   width: 100%;
 
 }
@@ -24,28 +27,92 @@ height: 90px;
   margin: 10px;
   padding: 10px;
 }
+
 .logo{
-  flex: 2;
+  flex: 3;
 }
+.name {
+  margin-top: -65px;
+  margin-left: 70px;
+}
+
+
 .home {
-  flex:1;
+  flex:3;
+  max-width: 160px;
 }
 footer {
-  position:absolute;
+  height: 50px;
   bottom:0;
   width: 100%;
   text-align: center;
   background-color: #85C3EB;
 }
 footer p{
+  padding-top: 15px;
   color: rgb(255, 255, 255);
   }
-@media only screen and (max-width:600px) {
-.forsidebilde {
 
-  }
-}
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 html, body, html * {
   font-family: 'Roboto', sans-serif;
 }
+.container-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  
+}
+.button1 {
+  border: solid;
+  color: rgb(0, 0, 0);
+  padding: 15px 180px;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #85C3EB;} /* Green */
+
+.wrapper-reinjakke {
+  background-size:100%;
+  padding-top: 15px;
+  
+}
+.parent-rainjakke {
+  padding-left: 20px;
+height: 316px;
+  width: 350px;
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+.button2 {
+flex: 2;
+
+ 
+
+}
+.wrapper-reinjakke p{
+
+  padding-left: 15px;
+}
+  
+
+
+@media only screen and (max-width:1000px) {
+  .container-buttons {
+
+  flex-direction: column;
+    }
+    .button1 {
+      white-space: normal;
+      padding: 0px 180px;
+    }
+  }
