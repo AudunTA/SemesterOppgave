@@ -78,11 +78,7 @@ html, body, html * {
 
 .button1 {background-color: #85C3EB;} /* Green */
 
-.wrapper-reinjakke {
-  background-size:100%;
-  padding-top: 15px;
-  
-}
+
 .parent-rainjakke {
   padding-left: 20px;
 height: 316px;
@@ -99,11 +95,8 @@ flex: 2;
  
 
 }
-.wrapper-reinjakke p{
 
-  padding-left: 15px;
-}
-  
+
 
 
 @media only screen and (max-width:1000px) {
