@@ -77,26 +77,42 @@ html, body, html * {
 }
 
 .button1 {background-color: #85C3EB;} /* Green */
-
-
-.parent-rainjakke {
+.master-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.wrapper-regnjakke {
+  margin: 10px;
   padding-left: 20px;
 height: 316px;
-  width: 350px;
+  width: 410px;
   border: solid;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 5px;
 }
-.button2 {
-flex: 2;
-
- 
-
+.container-regnjakke {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
+.en{
 
-
+  flex: 33.33%; 
+}
+.container-regnjakke p {
+  padding-left: 10px;
+}
+.container-regnjakke button {
+  margin-top: 132px;
+  margin-left: 10px;
+}
 
 
 @media only screen and (max-width:1000px) {
@@ -107,5 +123,8 @@ flex: 2;
     .button1 {
       white-space: normal;
       padding: 0px 180px;
+    }
+    .wrapper-reinjakke {
+      flex: 1 1 30%;
     }
   }
