@@ -1,279 +1,279 @@
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 .forsidebilde {
-  width: 1920px;
-  height: 300px;
+    width: 1920vw;
+    height: 300px;
 }
 .jakke {
-  height: 300px;
+    height: 300px;
+}
+.vipps {
+  height: 75px;
 }
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  box-shadow: -5px -5px 9px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    box-shadow: -5px -5px 9px grey;
 }
 .hjem {
-  border: 1px solid rgb(92, 90, 90);
-  
+    border: 1px solid rgb(92, 90, 90);
 }
 .cart {
-  border: 1px solid rgb(92, 90, 90);
+    border: 1px solid rgb(92, 90, 90);
 }
 .Logo {
-
-  width: 50px;
+    width: 50px;
 }
 .parent-wrapper {
-height: 80px;
-  width: 100%;
-
+    height: 80px;
+    width: 100%;
 }
 .parent {
-  display: flex;
-  margin: 10px;
-  padding: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
 }
 
-.logo{
-  flex: 3;
+.logo {
+    flex: 3;
 }
 .name {
-  margin-top: -65px;
-  margin-left: 70px;
+    margin-top: -65px;
+    margin-left: 70px;
 }
-
 
 .home {
-  flex:3;
-  max-width: 160px;
+    flex: 3;
+    max-width: 160px;
 }
 footer {
-  position: absolute;
-  height: 30px;
-  bottom:0;
-  width: 100%;
-  text-align: center;
-  background-color: #85C3EB;
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #85c3eb;
 }
-footer p{
-  margin-top: 8px;
-  color: rgb(255, 255, 255);
-  }
+footer p {
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+}
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
-html, body, html * {
-  font-family: 'Roboto', sans-serif;
+html,
+body,
+html * {
+    font-family: "Roboto", sans-serif;
 }
 .parent-buttons {
-
 }
 .container-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
 }
 
-.button1, .button2, .button3 {
-  
-  border: 1px solid rgb(92, 90, 90);
-  color: rgb(0, 0, 0);
-  padding: 15px 150px;
-  text-align: center;
-  white-space: nowrap;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 20px;
-  cursor: pointer;
-  
-  
-
+.button1,
+.button2,
+.button3,
+.button4 {
+    border: 1px solid rgb(92, 90, 90);
+    color: rgb(0, 0, 0);
+    padding: 15px 150px;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
 }
 
-.button1, .button2, .button3 {background-color: #85C3EB;} /* Green */
-.button2{
-
-  padding: 15px 140px;
+.button1,
+.button2,
+.button3,
+.button4 {
+    background-color: #85c3eb;
+} /* Green */
+.button2 {
+    padding: 15px 140px;
 }
-.button3{
-
-  padding: 15px 153px;
+.button3 {
+    padding: 15px 153px;
+}
+.button4 {
+  margin-top: 50px;
+  padding: 15px 100px;
 }
 .master-container {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap:wrap;
-  
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .wrapper-regnjakke {
-  margin: 10px;
-  padding-left: 20px;
-height: 316px;
-  width: 410px;
-  border: 1px solid rgb(92, 90, 90);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 5px;
-  box-shadow: 3px 3px 5px grey;
+    margin: 10px;
+    padding-left: 20px;
+    height: 316px;
+    width: 410px;
+    border: 1px solid rgb(92, 90, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    box-shadow: 3px 3px 5px grey;
 }
 .container-regnjakke {
-  
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.en{
-
-  flex: 33.33%; 
+.en {
+    flex: 33.33%;
 }
 .container-regnjakke p {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 .container-regnjakke button {
-  margin-top: 170px;
-  margin-left: 20px;
+    margin-top: 170px;
+    margin-left: 20px;
 }
 .hr-tag {
-  margin-top: -10px;
+    margin-top: -10px;
 }
 #cars {
-  
-  text-align: center;
-  width: 50px;
+    text-align: center;
+    width: 50px;
 }
-@media only screen and (max-width:1000px) {
-  .container-buttons {
-
-    flex-direction: column;
-      }
-    .wrapper-reinjakke {
-      flex: 1 1 30%;
+@media only screen and (max-width: 1000px) {
+    .container-buttons {
+        flex-direction: column;
     }
+    .wrapper-reinjakke {
+        flex: 1 1 30%;
+    }
+}
+@media only screen and (max-width: 473px) {
+  .name {
+    padding-top: 31px;
+    font-size: 0rem;
     
   }
-  .container-betaling {
+  
+}
+.container-betaling {
     align-items: center;
     justify-content: center;
     text-align: center;
     display: flex;
-  }
-  .wrapper-betaling{
-
+}
+.wrapper-betaling {
     border: solid;
-    height: 600px;
+    height: 700px;
     width: 700px;
-  
-  }
-  .KONTAKTINFORMASJON{
+}
+.KONTAKTINFORMASJON {
     margin-top: 50px;
-  }
-    .email {
-      height: 25px;
-      width: 370px;
-    }
-    .fornavn {
-      height: 25px;
-      width: 150px;
-    }
-    .etternavn {
-      height: 25px;
-      width: 210px;
-    }
-    .adresse {
-      margin-top: 10px;
-      height: 25px;
-      width: 370px;
-    }
-    .by {
-      margin-top: 10px;
-      height: 25px;
-      width: 150px;
-    }
-    .postkode {
-      margin-top: 10px;
-      height: 25px;
-      width: 210px;
-    }
-    .telefon {
-      margin-top: 10px;
-      height: 25px;
-      width: 150px;
-      margin-right: 220px;
-    }
-    .kortnr {
-      margin-top: 10px;
-      height: 25px;
-      width: 150px;
-    }
-    .CVV {
-      margin-top: 10px;
-      height: 25px;
-      width: 210px;
-    }
-    .betal-button {
-      margin-top: 10px;
-    }
-    .parent-order{
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      display: flex;
+}
+.email {
+    height: 25px;
+    width: 370px;
+}
+.fornavn {
+    height: 25px;
+    width: 150px;
+}
+.etternavn {
+    height: 25px;
+    width: 210px;
+}
+.adresse {
+    margin-top: 10px;
+    height: 25px;
+    width: 370px;
+}
+.by {
+    margin-top: 10px;
+    height: 25px;
+    width: 150px;
+}
+.postkode {
+    margin-top: 10px;
+    height: 25px;
+    width: 210px;
+}
+.telefon {
+    margin-top: 10px;
+    height: 25px;
+    width: 150px;
+    margin-right: 220px;
+}
+.kortnr {
+    margin-top: 10px;
+    height: 25px;
+    width: 210px;
+}
+.CVV {
+    margin-top: 10px;
+    height: 25px;
+    width: 150px;
+}
+.betal-button {
+    margin-top: 10px;
+}
+.parent-order {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+}
+.wrapper-order {
+    padding-top: 30px;
+    background-color: #ebebeb;
 
-
-    }
-    .wrapper-order {
-      padding-top: 30px;      
-      background-color: #EBEBEB;
-
-      height: 1000px;
-      width: 700px
-
-
-    }
-    .container-order {
-      
-      display: flex;
-      background-color: #EBEBEB;
-      margin-top: 30px;
-      margin:auto;
-      height: 300px;
-      width: 500px;
-      border: 1px solid rgb(92, 90, 90);
-    }
- .tekst {
-   margin-top: 190px;
- }
- .pris {
-   margin-top: 229px;
- }
- .sort {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  display: flex;
-
- }
+    height: 750px;
+    width: 500px;
+}
+.container-order {
+    display: flex;
+    background-color: #ebebeb;
+    margin-top: 30px;
+    margin: auto;
+    height: 200px;
+    width: 400px;
+}
+.x {
+  height: 20px;
+  margin-top: 28px;
+}
+.tekst {
+  text-align: left;
+  padding-left: 10px;
+    margin-top: 70px;
+}
+.pris {
+    margin-top: 129px;
+}
+.sort {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
 .buttonsort {
-
-  width: 300px;
-  margin-left: 20px;
-
-
- }
- .jakke1 {
-   padding-top: 30px;
-   padding-left: 30px;
-    height: 250px;
-  }
- }
+    width: 300px;
+    margin-left: 20px;
+}
+.jakke1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 150px;
+}
