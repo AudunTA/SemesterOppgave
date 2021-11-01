@@ -5,6 +5,12 @@ html {
 .forsidebilde {
     width: 1920vw;
     height: 300px;
+
+
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .jakke {
     height: 300px;
@@ -174,6 +180,11 @@ html * {
     font-size: 0rem;
     
   }
+  .wrapper-betaling {
+  
+      height: 700px;
+      width: 700px;
+  }
   
 }
 .container-betaling {
@@ -294,3 +305,4 @@ html * {
     text-align: center;
     display: flex; 
 }
+
