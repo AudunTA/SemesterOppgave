@@ -12,9 +12,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-.jakke {
-    height: 300px;
-}
+
 .vipps {
   height: 75px;
 }
@@ -149,9 +147,7 @@ html * {
     flex-wrap: wrap;
     width: 100%;
 }
-.en {
-    flex: 33.33%;
-}
+
 .container-regnjakke p {
     padding-left: 10px;
 }
@@ -180,11 +176,18 @@ html * {
     font-size: 0rem;
     
   }
+
+  
   .wrapper-betaling {
   
       height: 700px;
       width: 700px;
   }
+  .wrapper-betaling1 {
+  
+    height: 700px;
+    width: 700px;
+}
   
 }
 .container-betaling {
@@ -199,6 +202,12 @@ html * {
     height: 700px;
     width: 700px;
 }
+.wrapper-betaling1 {
+    border: 1px solid rgb(92, 90, 90);
+  
+      height: 600px;
+      width: 450px;
+  }
 .KONTAKTINFORMASJON {
     margin-top: 50px;
 }
@@ -306,3 +315,72 @@ html * {
     display: flex; 
 }
 
+.holdingcontainer{
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+
+  .internalcontainerL{
+    flex: 1;
+    /* background: red; */
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    border: 1px solid rgb(92, 90, 90);
+
+  }
+
+  .internalcontainerM{
+    
+    flex: 1;
+    /* background: pink; */
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    border: 1px solid rgb(92, 90, 90);
+
+  }
+
+  .internalcontainerR{
+ 
+    flex: 1;
+    /* background: cyan; */
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    border: 1px solid rgb(92, 90, 90);
+
+  }
+  .dasimages {
+      max-height: 250px;
+      max-width: 200px;
+      
+  }
+  @media screen and (max-width: 1000px){
+      .internalcontainerL {
+          margin: 5px;
+      }
+      .internalcontainerM{
+          margin: 5px;
+          
+      }
+      .internalcontainerR {
+          margin: 5px;
+      }
+
+  @media screen and (max-width: 768px){
+    .holdingcontainer{
+    text-align: center;
+        
+      flex-direction: column-reverse;
+    }
+
+  }
