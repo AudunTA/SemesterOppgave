@@ -73,14 +73,8 @@ body,
 html * {
     font-family: "Roboto", sans-serif;
 }
-.parent-buttons {
-}
-.container-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-}
+
+
 
 .button1,
 .button2,
@@ -162,20 +156,7 @@ html * {
     text-align: center;
     width: 50px;
 }
-@media only screen and (max-width: 1000px) {
-    .container-buttons {
-        flex-direction: column;
-    }
-    .wrapper-reinjakke {
-        flex: 1 1 30%;
-    }
-}
-@media only screen and (max-width: 473px) {
-  .name {
-    padding-top: 31px;
-    font-size: 0rem;
-    
-  }
+
 
   
   .wrapper-betaling {
@@ -262,12 +243,13 @@ html * {
     justify-content: center;
     text-align: center;
     display: flex;
+    
     margin-top: 30px;
 }
 .wrapper-order {
     padding-top: 30px;
     background-color: #ebebeb;
-
+    max-width: 100%;
     height: 800px;
     width: 500px;
 }
@@ -276,6 +258,7 @@ html * {
     background-color: #ebebeb;
     margin-top: 30px;
     margin: auto;
+    max-width: 100%;
     height: 200px;
     width: 400px;
 }
@@ -291,6 +274,12 @@ html * {
 .pris {
     margin-top: 129px;
 }
+.jakke1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 150px;
+}
+
 .sort {
     align-items: center;
     justify-content: center;
@@ -301,11 +290,7 @@ html * {
     width: 300px;
     margin-left: 20px;
 }
-.jakke1 {
-    padding-top: 30px;
-    padding-left: 30px;
-    height: 150px;
-}
+
 .wrapper-bekreftelse {
     padding: 250px 0;
     text-align: center;
@@ -330,7 +315,6 @@ html * {
     /* background: red; */
     padding: 30px;
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
     margin: 50px;
     border: 1px solid rgb(92, 90, 90);
 
@@ -342,7 +326,6 @@ html * {
     /* background: pink; */
     padding: 30px;
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
     margin: 50px;
     border: 1px solid rgb(92, 90, 90);
 
@@ -354,7 +337,6 @@ html * {
     /* background: cyan; */
     padding: 30px;
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
     margin: 50px;
     border: 1px solid rgb(92, 90, 90);
 
@@ -364,6 +346,21 @@ html * {
       max-width: 200px;
       
   }
+  .parent-buttons {
+    background: yellow;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    /* background: #ffc728; */
+    
+    box-sizing: border-box;
+    flex-direction: row;
+}
+.container-buttons {
+    text-align: center;
+}
+
+
   @media screen and (max-width: 1000px){
       .internalcontainerL {
           margin: 5px;
@@ -375,6 +372,7 @@ html * {
       .internalcontainerR {
           margin: 5px;
       }
+      
 
   @media screen and (max-width: 768px){
     .holdingcontainer{
@@ -382,5 +380,24 @@ html * {
         
       flex-direction: column-reverse;
     }
+    
 
   }
+  @media only screen and (max-width: 1000px) {
+    .container-buttons {
+        flex-direction: column;
+    }
+    .wrapper-reinjakke {
+        flex: 1 1 30%;
+    }
+}
+@media only screen and (max-width: 473px) {
+  .name {
+    padding-top: 31px;
+    font-size: 0rem;
+    
+  }
+  .tekst {
+      margin-top: 12px;
+  }
+}
