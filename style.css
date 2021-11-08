@@ -167,10 +167,10 @@ html * {
   .wrapper-betaling1 {
   
     height: 700px;
-    width: 700px;
+    max-width: 700px;
 }
   
-}
+
 .container-betaling {
     align-items: center;
     justify-content: center;
@@ -392,6 +392,9 @@ html * {
     }
 }
 @media only screen and (max-width: 473px) {
+    .wrapper-betaling h1 {
+font-size: 170%;
+    }
   .name {
     padding-top: 31px;
     font-size: 0rem;
@@ -400,4 +403,32 @@ html * {
   .tekst {
       margin-top: 12px;
   }
+  .etternavn {
+    height: 25px;
+    width: 110px;
+}
+.email {
+    height: 25px;
+    width: 270px;
+}
+.adresse {
+    height: 25px;
+    width: 270px;
+}
+.postkode {
+    height: 25px;
+    width: 110px;
+}
+.telefon {
+    margin-left: 100px;
+}
+.CVV {
+    height: 25px;
+    width: 100px;
+
+}
+.kortnr {
+    margin-top: 10px;
+    height: 25px;
+    width: 160px;
 }
