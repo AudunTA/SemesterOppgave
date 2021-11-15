@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
+    <meta name="description" content="Home page for RAINYDAYS - Pushing the comfort zone">
+
     <title>RAINYDAYS - Pushing the comfort zone</title>
   </head>
   <body>
@@ -17,16 +19,16 @@
           </div>
           <div class="home">
             <a href="profile.html"
-              ><img src="images/person.png" alt="Cart" class="Logo"
+              ><img src="images/person.png" alt="person" class="Logo"
             /></a>
-            <img src="images/home.png" alt="Cart" class="hjem" />
+            <img src="images/home.png" alt="hjem" class="hjem" />
             <a href="cart.html">
               <img src="images/cart.png" alt="Cart" class="cart1"
             /></a>
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container-forsidebilde">
         <img
           src="images/forsidebilde.jpg"
           alt="forsidebilde"
@@ -42,8 +44,13 @@
           >
             Men's Selection
           </button>
-          <button class="button2" type="button">Women's Selection</button>
           <button
+          onclick="document.location='men.html'"
+          type="button"
+          class="button2"
+        >
+          Women's Selection
+        </button>          <button
             onclick="document.location='men.html'"
             type="button"
             class="button3"
